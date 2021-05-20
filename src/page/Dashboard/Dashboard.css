@@ -1,0 +1,41 @@
+.dashboard h5 {
+  margin: 0 10px;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.line {
+  width: 40%;
+  margin: 0 10px;
+  border-bottom: 1px solid black;
+}
+
+.board-article {
+  margin-top: 20px;
+  padding: 0 0.7em;
+  box-sizing: border-box;
+  height: 540px;
+  overflow: auto;
+}
+
+/* Styling Scroll */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #d1d1d1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0084ff;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0276e4;
+}
